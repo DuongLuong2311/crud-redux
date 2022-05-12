@@ -1,0 +1,34 @@
+{
+  "classrooms": [
+    {
+      "room": "PHP",
+      "description": "HAHAHAHAHA"
+    },
+    {
+      "room": "JavaScripts",
+      "description": "HAHAHAHAHAHEHE"
+    }
+  ],
+  "students": [
+    {
+      "name": "Duong Thanh Luong",
+      "dob": "23-11-1999",
+      "gender": "Male",
+      "phonenumber": "0888931199",
+      "email": "duongthanhluong2311@gmail.com",
+      "address": "Nhân Chính, Thanh Xuân, Hà Nội"
+    }
+  ],
+  "users": [
+    {
+      "name": "Duong Thanh Luong",
+      "dob": "23-11-1999",
+      "gender": "Male",
+      "phonenumber": "0888931199",
+      "email": "duongthanhluong2311@gmail.com",
+      "address": "Nhân Chính, Thanh Xuân, Hà Nội",
+      "username": "dtluong2311",
+      "password": "luong123"
+    }
+  ]
+}

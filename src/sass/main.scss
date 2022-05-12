@@ -1,0 +1,126 @@
+@import './sources/_variables.scss';
+@import './sources/_typograghy.scss';
+@import './sources/_mixins.scss';
+
+//Default
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+
+a {
+  color: $color-black;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-black;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 1370px;
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.container-fruid {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+
+
+// Navbar
+.navbar {
+  width: 100%;
+  padding: 15px 30px;
+  background-color: #000;
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .nav-logo{
+    display: flex;  
+    align-items: center;
+    .logo{
+      font-size:map-get($font , h5 )
+    }
+  }
+
+  ul{
+    display: flex;
+    align-items: center;
+
+    li{
+      margin: 0 15px;
+    }
+  }
+}
+
+
+
+
+// Sidebar
+.sidebar {
+
+  width: 100%;
+  
+
+  .sidebar-content{
+    
+    li{
+      padding: 10px 15px;
+      border-bottom: 1px solid gray;
+
+      &:hover {
+        
+      }
+    }
+  }
+}
+
+
+
